@@ -2,9 +2,9 @@
 lock "3.7.2"
 
 set :application, "contactbook"
-set :repo_url, "git@example.com:pallavits/contactbook.git"
+set :repo_url, "git@github.com:PallaviTS/contactbook.git"
 set :branch, :master
-set :deploy_to, '/home/deploy/contactbook'
+set :deploy_to, '/home/ec2-user/contactbook'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
